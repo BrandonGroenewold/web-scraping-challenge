@@ -42,23 +42,6 @@ def mars_news(browser):
     return news_title, news_p
 
 
-# def mars_news(browser):
-#     url = "https://redplanetscience.com"
-#     browser.visit(url)
-#     html = browser.html
-#     soup = bs(html, "html.parser")
-#     elements = soup.find_all('div', class_="list_text")
-#     news = []
-#     for item in elements:
-#         title = item.find("div", class_="content_title").text
-#         preview = item.find("div", class_="article_teaser_body").text
-#         news_dict = {}
-#         news_dict["title"] = title
-#         news_dict["preview"] = preview
-#         news.append(news_dict)
-
-    # return 
-
 def featured_image(browser):
     url = "https://spaceimages-mars.com"
     browser.visit(url)
