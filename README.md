@@ -1,4 +1,4 @@
-# web-scraping-challenge
+# Web-Scraping-Challenge
 
 ## Scraping
 
@@ -6,14 +6,14 @@
 - Open a jupyter notebook and create a file for webscraping
 - Start with the NASA Mars News site and collect the latest news title and paragraph
 
-#### Part two
+#### Part Two
 - Then visit the URL for JPL Mars Space Images
 - Use splinter to naigate the site and find the image URL for current mars images
 
-#### Part three
+#### Part Three
 - Use the Mars Facts webpage to use Pandas to scrape the table of facts and convert the data to a HTML string
 
-#### Part four
+#### Part Four
 - Visit the astrogeology site to obtain images for each hemisphere of Mars
 - Save the URL strings and append the dictionary with the image URL string to a list
 
