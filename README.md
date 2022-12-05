@@ -21,4 +21,4 @@
 - Create a python script that will execute all scraping code from the jupyter notebook and return one Python dictionary that contains all of the scraped data
 - Create a flask route that will import your script and call your scrape function
 - Create an indix route that will query your Mongo database and the the Mars data into an HTML to display data
-- Create and index.html that will take the Mars data dictionary and display it.
+- Create and index.html that will take the Mars data dictionary and display it. 
